@@ -6,6 +6,8 @@ from dotenv import load_dotenv
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+// Enter your Open API key
+
 def generate_youtube_content(topic, audience, tone, language):
     prompt = f"""
     Create a YouTube video:
