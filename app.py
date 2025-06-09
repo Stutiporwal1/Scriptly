@@ -8,8 +8,8 @@ st.markdown("Generate video title, description, and script using AI")
 
 topic = st.text_input("Enter video topic")
 audience = st.text_input("Enter target audience")
-tone = st.selectbox("Choose tone", ["Professional", "Casual", "Funny", "Motivational"])
-language = st.selectbox("Choose language", ["English", "Hindi", "Spanish", "French"])
+tone = st.selectbox("Choose tone", ["Professional", "Casual", "Funny", "Motivational", "Friendly", "Informative"])
+language = st.selectbox("Choose language", ["English", "Hindi", "Spanish", "French", "German", "Cantonese"])
 
 if st.button("Generate"):
     if not topic or not audience:
