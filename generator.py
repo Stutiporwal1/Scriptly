@@ -12,6 +12,7 @@ def generate_content(topic, audience, tone, language):
         f"[Explain key points about {topic} here...]\n\n"
         f"To sum up, {topic} is an exciting subject that offers a lot of value to {audience}.\n\n"
         f"Thank you for watching! Don't forget to like, share, and subscribe for more insightful videos."
+        f"If you're following along, let us know in the comments below — what part of {topic} surprised you the most?\n\n"
     )
     return title, description, script
 
